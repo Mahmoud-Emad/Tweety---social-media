@@ -1,0 +1,22 @@
+:root{
+	--buttonBackGround:rgb(255, 173, 31);
+    --buttonColor: rgb(224, 218, 206);
+    --HoverBackGround:rgba(255, 173, 31, 0.123)
+}
+
+
+
+.Button_color{
+    border: 1px solid var(--buttonBackGround);
+}
+.width_Notifications:hover{
+	background:var(--HoverBackGround);
+	border-radius: 25px;
+	width: 100%;
+}
+.SpanNav:hover{
+    color: var(--buttonBackGround);
+}
+.color_actev{
+	border: 2px solid #fff;
+}

@@ -1,0 +1,65 @@
+:root{
+	--mainColor:#15202B;
+	--mainCard:#192531;
+	--secondaryColor:#192734;
+
+	--borderColor:#164D56;
+
+	--mainText:rgb(217 217 217);
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder: rgb(29, 161, 242);;
+
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--previewShadow:#f0f1f3;
+
+
+	--buttonColor: rgb(29, 161, 242);
+	--a_Person_name:#f0f1f3;
+}
+
+
+* {
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+body {
+	background: var(--mainColor);
+	color: var(--secondaryText);
+	
+}
+hr{
+	background: var(--borderColor);
+}
+.allModeButton{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Button_color{
+	box-shadow: var(--previewShadow);
+	font-weight: 700;
+	width: 26%;
+	height: 70px;
+	background: var(--mainColor);
+	color: var(--mainText);
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+	margin-left: 10px;
+	outline: none !important;
+
+}
+.Button_backGroundOne{
+	background: #e2e2e2;
+	color: #000;
+}
+.Button_backGroundTwo{
+	background: #15202B;
+	color: #fff;
+}
+.Button_backGroundThree{
+	background: rgb(0 0 0);
+	color: #fff;
+}
