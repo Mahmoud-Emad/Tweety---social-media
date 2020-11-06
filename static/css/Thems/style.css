@@ -49,6 +49,9 @@ p{
 	font-family: revert;
 	padding-left: 4rem!important;
 }
+small{
+	font-size: 14px;
+}
 
 /* Body */
 
@@ -367,7 +370,13 @@ svg:not(:root) {
     font-weight: 700;
     color: #fff !important;
     border-radius: 28px;
-    border: 1px solid var(--buttonBackGround);
+	border: 1px solid var(--buttonBackGround);
+	outline: none !important;
+}
+
+.TweeetStyleButtonPost{
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 
@@ -381,6 +390,23 @@ svg:not(:root) {
 
 /* SearchBox */
 
+.SearchBox_all{
+	border-radius: 50px;
+    height: 45px;
+	width: 300px;
+	border: 1px solid var(--mainColor);
+	background: var(--mainCard);
+	color: var(--mainText);
+	font-size: 20px;
+    text-align: center;
+    outline: var(--mainColor);
+    margin-left: 20px;
+}
+.SearchBox_all:hover{
+	
+	border: 1px solid var(--buttonBackGround);
+
+}
 .SearchBox{
 	border-radius: 50px;
     height: 45px;
@@ -413,17 +439,25 @@ svg:not(:root) {
 
 
 /* TextArea */
-
+.form-control {
+	min-height: 108px;
+}
 .textarea{
 	background: var(--mainColor) !important;
 	color: var(--mainText) !important;
 	border: var(--borderColor)!important;
     outline: none!important;
     box-shadow: none !important;
-    min-height:50px;
+    min-height:100px;
     max-height: 250px!important;
 }
 
+
+.Post_Image_load{
+	width: 40px;
+	float: right;
+	padding-top: 20px;
+}
 
 .close_Model_Post{
 	color: #fff;
@@ -526,6 +560,18 @@ svg:not(:root) {
     width: 609px;
     border-radius: 12px;
 }
+.embed-responsive{
+	height: 300px;
+}
+
+/* Spinner */
+
+.spinner-border{
+
+	color: var(--buttonBackGround);
+
+}
+/* Spinner */
 
 
 /* Main Home */
@@ -611,8 +657,13 @@ svg:not(:root) {
 .CenterAll{
 	display: flex;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+	padding-bottom: 20px;
 }
+
+
+
+
 
 /* Sochial Links */
 
@@ -693,8 +744,204 @@ svg:not(:root) {
 	padding-left: 20px;
 	font-size: 25px;
 }
+.CoronaInfo{
+	padding-bottom: 20px;
+}
+.CoronaInfo .Arabic_Corona{
+	float: right;
+	width: 80px;
+	height: 80px;
+	border-radius: 12px;
+	object-fit: fill;
+}
+.CoronaInfo .English_Corona{
+	float: right;
+	width: 80px;
+	height: 80px;
+	border-radius: 12px;
+	object-fit: fill;
+}
+.CoronaInfo .arabic_Corona_h6{
+	padding-left: 20px;
+	font-size: 19px;
+}
+.English_Corona_h6{
+	padding-left: 0px;
+	font-size: 15px;
+}
+.CoronaInfo a{
+	color: var(--mainText);
+}
+
+.Trending_in_egypt h6{
+	float: right;
+}
+.Trending_in_egypt_svg{
+	float: left;
+	font-size: 10px;
+	width: 20px;
+
+	color: var(--buttonBackGround);
+}
+.posation_Trending_in_Egypt{
+	line-height: 3;
+}
+.NotIntersted{
+	float: left;
+	font-size: 15px;
+	width: 25px;
+	padding-right: 5px;
+}
+
+.Footer_and_terms a{
+	color: var(--mainText);
+}
+.Footer_and_terms a:hover{
+	color: var(--buttonBackGround);
+}
 
 /* Trending */
+
+/* Mobile Width 1300 */
+
+.Mobile_Width_1300{
+	display: none;
+}
+
+/* Mobile Width 1300 */
+
+
+
+
+
+
+
+/* ********************************************************************************************************************************************************************************************** */
+
+
+/* Tweet Post Page */
+
+
+.Back_Logo {
+	display: flex;
+}
+.Back_Logo h5{
+	padding-left: 50px;
+}
+.Back_Logo svg{
+	display: flex;
+	width: 27px;
+	color: var(--buttonBackGround);
+}
+.Back_Logo a{
+	margin-top: 3px;
+}
+
+.Retweets{
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.Retweets a{
+	padding-left: 40px;
+	padding-right: 30px;
+}
+
+.DateTimePost{
+	padding-left: 20px;
+}
+
+.Comment_Body{
+	border-top: 1px solid var(--borderColor);
+	border-bottom: 1px solid var(--borderColor);
+	padding-top: 20px;
+}
+
+
+.message-blue {
+    margin-top: -20px;
+    position: relative;
+    margin-left: 94px;
+    padding: 10px;
+    background-color: var(--borderColor);
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid var(--borderColor);
+	border-radius: 10px;
+	font-weight: 600;
+}
+.message-content{
+	padding-left: 10px !important;
+}
+
+.message-timestamp-left {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 100;
+    bottom: 5px;
+    left: 20px;
+    color: var(--mainText);
+}
+.message-blue:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid var(--borderColor);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 0;
+    left: -15px;
+}
+
+.message-blue:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 17px solid var(--borderColor);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    top: -1px;
+    left: -17px;
+}
+
+
+
+/* Tweet Post Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -705,18 +952,183 @@ svg:not(:root) {
 /* media screen */
 
 
-@media screen and (max-width:1000px){
-    .HeartImg_Model{
+
+
+
+/* 1300 */
+
+@media screen and (max-width:1700px){
+	.Mobile_Width_1300{
+		display: block;
+	}
+    .MobileView{
         display: none;
     }
+    .position-fixed-left{
+		left: 5%;
+		width: 300px;
+        
+        
+	}
+	.position-fixed-right{
+		right: 5%;
+		width: 300px;
+    }
+
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1500px){
+	.Mobile_Width_1300{
+		display: block;
+	}
+    .MobileView{
+        display: none;
+    }
+    .position-fixed-left{
+		left: 5%;
+		width: 300px;
+        
+        
+	}
+	.position-fixed-right{
+		right: 5%;
+		width: 300px;
+    }
+
+}
+@media screen and (max-width:1400px){
+	.Mobile_Width_1300{
+		display: block;
+	}
+    .MobileView{
+        display: none;
+    }
+    .position-fixed-left{
+		left: 1%;
+		width: 300px;
+        
+        
+	}
+	.position-fixed-right{
+		right: 3%;
+		width: 300px;
+    }
+
+}
+@media screen and (max-width:1305px){
+	.Mobile_Width_1300{
+		display: block;
+	}
+    .MobileView{
+        display: none;
+    }
+    .position-fixed-left{
+		left: 1%;
+		width: 300px;
+        
+        
+	}
+	.position-fixed-right{
+		right: 14%;
+		width: 150px;
+	}
+	#sticky{
+		width: 300px;
+	}
+
+}
+@media screen and (max-width:1289px){
+	.SpanNav{
+		font-size: 23px;
+	}
+	.Mobile_Width_1300{
+		display: block;
+	}
+    .MobileView{
+        display: none;
+    }
+    .position-fixed-left{
+		left: 1%;
+		width: 250px;
+        
+	}
+	.SearchBox_all{
+		width: 190px;
+		padding-left: 20px;
+	}
+	.SearchFont{
+		top: 3.9%;
+		left: 23px;
+	}
+	.position-fixed-right{
+		right: 1%;
+		width: 300px;
+	}
+	#sticky{
+		width: auto;
+	}
+	#sticky h4{
+		width:206px;
+		font-weight: 700;
+		color: var(--mainText);
+		padding-top: 15px;
+		font-size: 20px;
+	}
+	.posation_Trending_in_Egypt{
+		width: 190px;
+	}
+	.CoronaInfo img{
+		width: 60px;
+		height: 60px;
+	}
+	.CoronaInfo .arabic_Corona_h6{
+		padding-left: 0px;
+	}
+
+}
+@media screen and (max-width:1287px){
+	.position-fixed-right{
+		right: 1%;
+		width: auto;
+	}
+
+}
+
+
+
+/* 1300 */
+
+
+
+/* 1100 */
+
+@media screen and (max-width:1100px){
+	.DateTimePost{
+		padding-left: 0px;
+	}
+	.Retweets a{
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 16px;
+	}
+	.Back_Logo h5{
+		width: auto;
+		padding-left: 0px;
+		padding-top: 15px;
+	}
+	.SpanNav{
+		font-size: 23px;
+	}
+	.HeartImg_Model{
+        display: none;
+    }
+	.Mobile_Width_1300{
+		display: none;
+	}
     .MobileView{
         display: block;
     }
     .position-fixed-left{
         left: 1%;
-        border-right: 1px solid var(--borderColor);
         width: 70px;
     }
     .DeskTop{
@@ -729,7 +1141,7 @@ svg:not(:root) {
 		box-shadow: 1px 1px 5px 5px #8888886e;
     }
 	.ResizeMain {
-		width: 400px;
+		width: auto;
 		overflow: hidden;
 		border-bottom: 1px solid var(--borderColor);
 		border-left: 1px solid var(--borderColor);
@@ -737,7 +1149,7 @@ svg:not(:root) {
 		
     }
     .ResizeMain2 {
-		width: 400px;
+		width: auto;
 		overflow: hidden;
 		border-bottom: 1px solid var(--borderColor);
 		border-left: 1px solid var(--borderColor);
@@ -792,6 +1204,101 @@ svg:not(:root) {
 
 
 
+/* 1100 */
+
+
+
+
+
+
+
+
+/* 500 */
+
+
+/* 
+@media screen and (max-width:580px){
+    .MobileView{
+        display: block;
+    }
+    .position-fixed-left{
+        left: 1%;
+        
+        width: 70px;
+    }
+    .DeskTop{
+        display: none;
+    }
+    .Model_more_hover{
+        
+		margin-left: 20px !important;
+		width: 340px;
+		box-shadow: 1px 1px 5px 5px #8888886e;
+    }
+	.ResizeMain {
+		width: auto;
+		overflow: hidden;
+		border-bottom: 1px solid var(--borderColor);
+		border-left: 1px solid var(--borderColor);
+		padding: 20px;
+		
+    }
+    .ResizeMain2 {
+		width: auto;
+		overflow: hidden;
+		border-bottom: 1px solid var(--borderColor);
+		border-left: 1px solid var(--borderColor);
+		padding: 20px;
+		
+	}
+	p{
+		font-size: 15px;
+		font-family: revert;
+		padding-left: 16px!important;
+		padding-top: 10px;
+	}
+    .ViewMobilkeHome{
+        margin-left: 60px;
+        width: 400px;
+    }
+
+    .ResizeMain a{
+        width: 100px;
+        height: 45px;
+        margin-top: 20px;
+        opacity: 0.55;
+    }
+    .embed-responsive-item {
+		text-align: center;
+		height: 85% !important;
+		width: 609px;
+		border-radius: 12px;
+	}
+	.SizeImagePost{
+		height: 100% !important;
+	}
+	.SizeImagePost img{
+		padding: 2px;
+		width: 100%;
+		object-fit: fill;
+		height: 65% !important;
+	}
+	.NameOfPerson{
+		padding-left: 4px;
+		color: var(--a_Person_name);
+		font-size: 18px;
+		font-weight: 500;
+    }
+    
+    .MoreToolPost svg{
+        width: 27px;
+        left: 50%;
+    
+    }
+} */
+
+
+/* 500 */
 
 /* media screen */
 
