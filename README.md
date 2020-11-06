@@ -14,7 +14,7 @@ today is ( 05 - 11 - 20)
 
 #####################################################################
 
-tody is (06 - 11 - 20)
+today is (06 - 11 - 20)
 
 i have created tweet detail view and start working with back end data base 
 
